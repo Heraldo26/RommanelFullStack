@@ -1,0 +1,143 @@
+<div class="container">
+  <h2>{{ clienteSelecionado.idCliente ? 'Editar Cliente' : 'Adicionar Cliente' }}</h2>
+  <div class="row">
+    <div class="col-md-8">
+        <form (ngSubmit)="salvarCliente(form)" #form="ngForm">
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <label class="form-label">{{ clienteSelecionado.tipoPessoa === 'Juridica' ? 'Razão Social' : 'Nome' }}</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.nome" name="nome" required />
+                    <div *ngIf="form.submitted && !clienteSelecionado.nome" class="text-danger">
+                        Nome é obrigatório.
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" [(ngModel)]="clienteSelecionado.email" name="email" required />
+                    <div *ngIf="form.submitted && !clienteSelecionado.email" class="text-danger">
+                        Email é obrigatório.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">{{ clienteSelecionado.tipoPessoa === 'Juridica' ? 'CNPJ' : 'CPF' }}</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.documento" name="documento" mask="000.000.000-00" *ngIf="clienteSelecionado.tipoPessoa !== 'Juridica'" />
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.documento" name="documento" mask="00.000.000/0000-00" *ngIf="clienteSelecionado.tipoPessoa === 'Juridica'" />
+                    <div *ngIf="form.submitted && !clienteSelecionado.documento" class="text-danger">
+                        Documento é obrigatório.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Data de Nascimento</label>
+                    <input type="date" class="form-control" [(ngModel)]="clienteSelecionado.dataNascimento" name="dataNascimento" required />
+                    <div *ngIf="form.submitted && !clienteSelecionado.dataNascimento" class="text-danger">
+                        Data de nascimento é obrigatória.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Telefone</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.telefone" name="telefone" required mask="(00) 00000-0000" />
+                    <div *ngIf="form.submitted && !clienteSelecionado.telefone" class="text-danger">
+                        Telefone é obrigatório.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Tipo de Pessoa</label>
+                    <select
+                            class="form-select"
+                            id="tipoPessoa"
+                            [(ngModel)]="clienteSelecionado.tipoPessoa"
+                            name="tipoPessoa"
+                            required
+                            (change)="verificarTipoPessoa()"
+                        >
+                            <option value="Fisica">Física</option>
+                            <option value="Juridica">Jurídica</option>
+                    </select>
+                    <div *ngIf="form.submitted && !clienteSelecionado.tipoPessoa" class="text-danger">
+                        Tipo de pessoa é obrigatório.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3" *ngIf="clienteSelecionado.tipoPessoa === 'Juridica'">
+                    <label class="form-label">Inscrição Estadual</label>
+                    <input type="text" class="form-control" 
+                            [(ngModel)]="clienteSelecionado.inscricaoEstadual" 
+                            name="inscricaoEstadual" 
+                            [required]="clienteSelecionado.tipoPessoa === 'Juridica' && !clienteSelecionado.isentoIE"
+                            [disabled]="clienteSelecionado.isentoIE" mask="000.000.000.000"/>
+                    <div *ngIf="form.submitted && !clienteSelecionado.inscricaoEstadual && clienteSelecionado.tipoPessoa === 'Juridica' && !clienteSelecionado.isentoIE" class="text-danger">
+                        Inscrição estadual é obrigatória.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3 text-center" *ngIf="clienteSelecionado.tipoPessoa === 'Juridica'">
+                    <label class="form-check-label mb-3" for="isentoIE">Isento Inscrição Estadual</label>
+                    <br>
+                    <input 
+                        type="checkbox" 
+                        class="form-check-input" 
+                        id="isentoIE" 
+                        [(ngModel)]="clienteSelecionado.isentoIE" 
+                        name="isentoIE" 
+                        (change)="verificarIsencaoIE()"/>
+                    
+                </div>
+            </div>
+            <h3 class="mt-3">Endereço</h3>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Rua</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.endereco.rua" name="rua" required />
+                    <div *ngIf="form.submitted && !clienteSelecionado.endereco.rua" class="text-danger">
+                        Rua é obrigatória.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Número</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.endereco.numero" name="numero" required mask="0*"/>
+                    <div *ngIf="form.submitted && !clienteSelecionado.endereco.numero" class="text-danger">
+                        Número é obrigatório.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">CEP</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.endereco.cep" name="cep" required mask="00000-000"/>
+                    <div *ngIf="form.submitted && !clienteSelecionado.endereco.cep" class="text-danger">
+                        CEP é obrigatório.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Bairro</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.endereco.bairro" name="bairro" required />
+                    <div *ngIf="form.submitted && !clienteSelecionado.endereco.bairro" class="text-danger">
+                        Bairro é obrigatório.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Cidade</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.endereco.cidade" name="cidade" required />
+                    <div *ngIf="form.submitted && !clienteSelecionado.endereco.cidade" class="text-danger">
+                        Cidade é obrigatória.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label class="form-label">Estado</label>
+                    <input type="text" class="form-control" [(ngModel)]="clienteSelecionado.endereco.estado" name="estado" required />
+                    <div *ngIf="form.submitted && !clienteSelecionado.endereco.estado" class="text-danger">
+                        Estado é obrigatório.
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-end gap-2">
+        <button type="button" class="btn btn-secondary" (click)="router.navigate(['/'])">Cancelar</button>
+            <button type="submit" class="btn btn-primary">{{ clienteSelecionado.idCliente ? 'Salvar Alterações' : 'Adicionar' }}</button>
+        </div>
+        </form>
+    </div>
+  </div>
+</div>

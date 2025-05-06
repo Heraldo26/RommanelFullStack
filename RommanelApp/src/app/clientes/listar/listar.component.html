@@ -1,0 +1,65 @@
+<div class="container">
+<div class="clientes-lista">
+    <div class="title mb-3">
+        <h2>Lista de Clientes</h2>
+    </div>
+    <div class="row">
+        <div class="pull-right">
+            <button class="btn btn-primary mb-3" (click)="formularioCliente()">+Cliente</button>
+        </div>
+        <div class="table">
+            <table class="table table-responsive" *ngIf="clientes.length > 0; else noData">
+                <thead>
+                    <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Documento</th>
+                    <th>Email</th>
+                    <th>Data Nascimento</th>
+                    <th>Telefone</th>
+                    <th>Tipo Pessoa</th>
+                    <th class="text-center">Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let cliente of clientes">
+                    <td>{{ cliente.idCliente }}</td>
+                    <td>{{ cliente.nome }}</td>
+                    <td>{{ cliente.documento | mask:cliente.documento.length === 11 ? '000.000.000-00' : '00.000.000/0000-00' }}</td>
+                    <td>{{ cliente.email }}</td>
+                    <td>{{ cliente.dataNascimento | date:'dd/MM/yyyy' }}</td>
+                    <td>{{ cliente.telefone }}</td>
+                    <td>{{ cliente.tipoPessoa }}</td>
+                    <td class="text-center">
+                        <button class="btn btn-primary" (click)="formularioCliente(cliente)">Editar</button>
+                        <button class="btn btn-danger" (click)="abrirModalExcluir(cliente)">Excluir</button>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+  
+        <ng-template #noData>
+        <p>Nenhum cliente encontrado.</p>
+        </ng-template>
+    </div>
+</div>
+</div>
+<div class="modal" tabindex="-1" [ngClass]="{ 'show d-block': mostrarModalExcluir }" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Confirmar Exclusão</h5>
+          <button type="button" class="btn-close" aria-label="Close" (click)="fecharModalExcluir()"></button>
+        </div>
+        <div class="modal-body">
+          <p>Você tem certeza que deseja excluir este cliente?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="fecharModalExcluir()">Cancelar</button>
+          <button type="button" class="btn btn-danger" (click)="excluirCliente()">Excluir</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop fade show" *ngIf="mostrarModalExcluir"></div>
