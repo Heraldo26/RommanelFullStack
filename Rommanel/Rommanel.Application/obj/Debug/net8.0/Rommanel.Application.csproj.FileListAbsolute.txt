@@ -1,0 +1,15 @@
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Application.deps.json
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Application.dll
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Application.pdb
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Domain.dll
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Domain.pdb
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.csproj.AssemblyReference.cache
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.AssemblyInfoInputs.cache
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.AssemblyInfo.cs
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.csproj.CoreCompileInputs.cache
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.csproj.CopyComplete
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.dll
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\refint\Rommanel.Application.dll
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.pdb
+C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\ref\Rommanel.Application.dll
