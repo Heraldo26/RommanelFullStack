@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj": {}
+    "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj": {
+    "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj",
+        "projectUniqueName": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj",
         "projectName": "Rommanel.Api",
-        "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj",
-        "packagesPath": "C:\\Users\\heral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Api\\obj\\",
+        "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj",
+        "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\heral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj"
+              "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj"
               }
             }
           }
@@ -44,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -88,26 +87,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj": {
+    "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj",
+        "projectUniqueName": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj",
         "projectName": "Rommanel.Application",
-        "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj",
-        "packagesPath": "C:\\Users\\heral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\obj\\",
+        "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj",
+        "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\heral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,15 +109,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj": {
-                "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj"
+              "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj": {
+                "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj"
               }
             }
           }
@@ -132,6 +125,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -167,26 +165,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj": {
+    "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj",
         "projectName": "Rommanel.Domain",
-        "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj",
-        "packagesPath": "C:\\Users\\heral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\obj\\",
+        "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj",
+        "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\heral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -194,7 +187,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -207,6 +199,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -228,26 +225,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj": {
+    "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj",
         "projectName": "Rommanel.Infrastructure",
-        "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\heral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Infrastructure\\Rommanel.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\heral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -255,18 +247,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj": {
-                "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj"
+              "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj": {
+                "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj"
               },
-              "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj": {
-                "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj"
+              "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj": {
+                "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Domain\\Rommanel.Domain.csproj"
               }
             }
           }
@@ -275,6 +266,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -320,26 +316,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj": {
+    "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj",
         "projectName": "Rommanel.Tests",
-        "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj",
-        "packagesPath": "C:\\Users\\heral\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Tests\\obj\\",
+        "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Tests\\Rommanel.Tests.csproj",
+        "packagesPath": "C:\\Users\\teste\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\heral\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\teste\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -347,18 +338,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj": {
-                "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj"
+              "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj": {
+                "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Api\\Rommanel.Api.csproj"
               },
-              "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj": {
-                "projectPath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj"
+              "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj": {
+                "projectPath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.Application\\Rommanel.Application.csproj"
               }
             }
           }
@@ -367,6 +357,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -424,7 +419,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -13,3 +13,19 @@ C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debu
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\refint\Rommanel.Application.dll
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.pdb
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Application\obj\Debug\net8.0\ref\Rommanel.Application.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Application.deps.json
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Application.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Application.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Domain.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\bin\Debug\net8.0\Rommanel.Domain.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.csproj.AssemblyReference.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.AssemblyInfoInputs.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.AssemblyInfo.cs
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.csproj.CoreCompileInputs.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.sourcelink.json
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.56AA7DAE.Up2Date
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\refint\Rommanel.Application.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\Rommanel.Application.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Application\obj\Debug\net8.0\ref\Rommanel.Application.dll

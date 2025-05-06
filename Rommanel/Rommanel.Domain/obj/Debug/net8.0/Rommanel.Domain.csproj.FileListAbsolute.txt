@@ -9,3 +9,15 @@ C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Domain\obj\Debug\net
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Domain\obj\Debug\net8.0\refint\Rommanel.Domain.dll
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.pdb
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Domain\obj\Debug\net8.0\ref\Rommanel.Domain.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\bin\Debug\net8.0\Rommanel.Domain.deps.json
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\bin\Debug\net8.0\Rommanel.Domain.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\bin\Debug\net8.0\Rommanel.Domain.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.AssemblyInfoInputs.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.AssemblyInfo.cs
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.csproj.CoreCompileInputs.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.sourcelink.json
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\refint\Rommanel.Domain.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\Rommanel.Domain.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Domain\obj\Debug\net8.0\ref\Rommanel.Domain.dll

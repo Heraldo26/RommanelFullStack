@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s8tmFRHXdfL8o7eRkC0Z+o1vO1TMRekVzKfenaq+K1mFBIKPhyqJFO94BkWbzfKohrauRZAX0MZF8ERXvqzeQQ==",
+  "dgSpecHash": "Afy9LdH15gYwZ/k9Qoqwa5M3XQ1eAMpjMXgjgs2G+itt/D5zz8/CvhRp8q1JD/seHaaIKeMQ6m0Oz+mW7HHuGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\heral\\Downloads\\Project Rommanel\\Rommanel\\Rommanel.EventSourcing\\Rommanel.EventSourcing.csproj",
+  "projectFilePath": "C:\\Users\\teste\\Downloads\\RommanelFullStack\\Rommanel\\Rommanel.EventSourcing\\Rommanel.EventSourcing.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

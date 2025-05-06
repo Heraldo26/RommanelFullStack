@@ -9,7 +9,6 @@ services:
       - "1433:1433"
     volumes:
       - sqlserver_data:/var/opt/mssql
-      - ./Database/create-database.sql:/docker-entrypoint-initdb.d/create-database.sql
     networks:
       - rommanel_net
 
@@ -22,9 +21,10 @@ services:
       - sqlserver
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=RommanelDB;User=sa;Password=Romanel@2025;
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=RommanelDb;User Id=sa;Password=Romanel@2025;TrustServerCertificate=True;
+
     ports:
-      - "5000:80"
+      - "5000:8080"
     networks:
       - rommanel_net
 
@@ -37,6 +37,42 @@ services:
       - "4200:80"
     depends_on:
       - backend-core
+    networks:
+      - rommanel_net
+
+  db-init:
+    image: mcr.microsoft.com/mssql-tools
+    container_name: db-init
+    depends_on:
+      - sqlserver
+    entrypoint: /bin/bash
+    command: >
+      -c "
+      echo 'Aguardando SQL Server iniciar...';
+      sleep 30;
+      echo 'Executando script de criação de banco de dados...';
+      /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'Romanel@2025' -i /scripts/create-database.sql;
+      "
+    volumes:
+      - ./Database:/scripts
+    networks:
+      - rommanel_net
+
+  ef-migrator:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    container_name: ef_migrator
+    working_dir: /src
+    volumes:
+      - ./Rommanel:/src
+    command: >
+      sh -c "
+        dotnet tool install --global dotnet-ef &&
+        export PATH=\"$PATH:/root/.dotnet/tools\" &&
+        dotnet restore Rommanel.Api/Rommanel.Api.csproj &&
+        dotnet ef database update --project Rommanel.Infrastructure --startup-project Rommanel.Api
+      "
+    depends_on:
+      - sqlserver
     networks:
       - rommanel_net
 

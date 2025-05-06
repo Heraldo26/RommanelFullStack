@@ -46,7 +46,6 @@ export class FormularioClienteComponent implements OnInit{
     const idCliente = this.route.snapshot.paramMap.get('idCliente');
     if (idCliente) {
       this.clientesService.getCliente(idCliente).subscribe(cliente => {
-        console.log("cliente", cliente);
         this.clienteSelecionado = cliente;
 
         if (this.clienteSelecionado.dataNascimento) {

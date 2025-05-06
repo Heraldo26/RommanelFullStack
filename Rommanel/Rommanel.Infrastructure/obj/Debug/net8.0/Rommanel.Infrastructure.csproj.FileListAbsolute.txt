@@ -17,3 +17,23 @@ C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Infrastructure\obj\D
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.pdb
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.genruntimeconfig.cache
 C:\Users\heral\Downloads\Project Rommanel\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\ref\Rommanel.Infrastructure.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Infrastructure.deps.json
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Infrastructure.runtimeconfig.json
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Infrastructure.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Infrastructure.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Application.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Domain.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Application.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\bin\Debug\net8.0\Rommanel.Domain.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.AssemblyInfo.cs
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.sourcelink.json
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.C97ADF03.Up2Date
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\refint\Rommanel.Infrastructure.dll
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.pdb
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\Rommanel.Infrastructure.genruntimeconfig.cache
+C:\Users\teste\Downloads\RommanelFullStack\Rommanel\Rommanel.Infrastructure\obj\Debug\net8.0\ref\Rommanel.Infrastructure.dll
