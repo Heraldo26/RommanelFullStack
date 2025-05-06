@@ -1,8 +1,14 @@
 FROM node:18-alpine as build
 WORKDIR /app
-COPY . .
+COPY package*.json ./
 RUN npm install
+
+COPY . .
 RUN npm run build --prod
 
 FROM nginx:alpine
-COPY --from=build /app/dist/RommanelApp /usr/share/nginx/html
+COPY --from=build /app/dist/rommanel-app /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
