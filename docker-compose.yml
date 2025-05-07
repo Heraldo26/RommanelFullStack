@@ -52,11 +52,14 @@ services:
       sleep 30;
       echo 'Executando script de criação de banco de dados...';
       /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'Romanel@2025' -i /scripts/create-database.sql;
+      echo 'Executando script de criação de tabelas...';
+      /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P 'Romanel@2025' -i /scripts/create-tables.sql;
       "
     volumes:
       - ./Database:/scripts
     networks:
       - rommanel_net
+
 
   ef-migrator:
     image: mcr.microsoft.com/dotnet/sdk:8.0
