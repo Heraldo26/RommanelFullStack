@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rommanel.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d8c8716dde0d37b5a8549399642990f15efe0d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfe856abb10aa4fa9ab002553d085a3ff9351ec6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rommanel.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rommanel.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
